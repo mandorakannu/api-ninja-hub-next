@@ -1,5 +1,6 @@
 import Codebase from "@/components/Codebase";
 import Endpoints from "@/components/Endpoints";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const usersData = {
@@ -55,6 +56,7 @@ export default function Home() {
         <Codebase />
       </div>
       <Endpoints />
+      <Footer />
     </>
   );
 }
