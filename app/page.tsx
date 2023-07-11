@@ -1,4 +1,5 @@
 import Codebase from "@/components/Codebase";
+import Endpoints from "@/components/Endpoints";
 
 export default function Home() {
   const usersData = {
@@ -53,6 +54,7 @@ export default function Home() {
         </p>
         <Codebase />
       </div>
+      <Endpoints />
     </>
   );
 }

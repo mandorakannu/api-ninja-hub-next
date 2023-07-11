@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1,
+    "endpoint": "/api/users",
+    "amount": "10 Users",
+    "path": "https://www.api.mandorakannu.tech/api/users"
+  },
+  {
+    "_id": 2,
+    "endpoint": "/api/posts",
+    "amount": "100 Posts",
+    "path": "https://www.api.mandorakannu.tech/api/posts"
+  },
+  {
+    "_id": 3,
+    "endpoint": "/api/comments",
+    "amount": "100 Comments",
+    "path": "https://www.api.mandorakannu.tech/api/comments"
+  },
+  {
+    "_id": 4,
+    "endpoint": "/api/todos",
+    "amount": "100 Todos",
+    "path": "https://www.api.mandorakannu.tech/api/todos"
+  },
+  {
+    "_id": 5,
+    "endpoint": "/api/albums",
+    "amount": "100 Albums",
+    "path": "https://www.api.mandorakannu.tech/api/albums"
+  },
+  {
+    "_id": 6,
+    "endpoint": "/api/photos",
+    "amount": "100 Photos",
+    "path": "https://www.api.mandorakannu.tech/api/photos"
+  }
+]
