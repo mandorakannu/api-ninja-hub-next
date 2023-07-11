@@ -34,7 +34,7 @@ export default function Hambar() {
           Docs
         </Link>
         <Link
-          href="https://www.github.com/mandorakannu"
+          href="https://github.com/mandorakannu/api-ninja-hub-next"
           target="_blank"
           className="p-4 border-b border-white w-full text-end"
         >

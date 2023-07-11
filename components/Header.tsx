@@ -36,7 +36,7 @@ export default function Navbar() {
               Docs
             </Link>
             <Link
-              href="https://www.github.com/mandorakannu"
+              href="https://github.com/mandorakannu/api-ninja-hub-next"
               target="_blank"
               className="hover:underline underline-offset-2"
             >
