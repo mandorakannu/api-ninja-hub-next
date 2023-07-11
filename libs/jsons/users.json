@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "address": {
+      "street": "123 Main Street",
+      "suite": "Apt 4",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": {
+        "lat": "40.7128",
+        "lng": "-74.0060"
+      }
+    },
+    "phone": "555-123-4567",
+    "website": "johndoe.com",
+    "company": {
+      "name": "ABC Company",
+      "catchPhrase": "Providing innovative solutions",
+      "bs": "Technology"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "username": "janesmith",
+    "email": "janesmith@example.com",
+    "address": {
+      "street": "456 Elm Street",
+      "suite": "Apt 10",
+      "city": "Los Angeles",
+      "zipcode": "90001",
+      "geo": {
+        "lat": "34.0522",
+        "lng": "-118.2437"
+      }
+    },
+    "phone": "555-987-6543",
+    "website": "janesmith.com",
+    "company": {
+      "name": "XYZ Corporation",
+      "catchPhrase": "Empowering businesses",
+      "bs": "Finance"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "username": "michaeljohnson",
+    "email": "michaeljohnson@example.com",
+    "address": {
+      "street": "789 Oak Street",
+      "suite": "Apt 7",
+      "city": "Chicago",
+      "zipcode": "60601",
+      "geo": {
+        "lat": "41.8781",
+        "lng": "-87.6298"
+      }
+    },
+    "phone": "555-555-5555",
+    "website": "michaeljohnson.com",
+    "company": {
+      "name": "DEF Industries",
+      "catchPhrase": "Transforming industries",
+      "bs": "Manufacturing"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "username": "emilydavis",
+    "email": "emilydavis@example.com",
+    "address": {
+      "street": "321 Pine Street",
+      "suite": "Apt 3",
+      "city": "San Francisco",
+      "zipcode": "94101",
+      "geo": {
+        "lat": "37.7749",
+        "lng": "-122.4194"
+      }
+    },
+    "phone": "555-111-2222",
+    "website": "emilydavis.com",
+    "company": {
+      "name": "GHI Solutions",
+      "catchPhrase": "Simplifying complex problems",
+      "bs": "Consulting"
+    }
+  },
+  {
+    "id": 5,
+    "name": "David Brown",
+    "username": "davidbrown",
+    "email": "davidbrown@example.com",
+    "address": {
+      "street": "987 Maple Street",
+      "suite": "Apt 8",
+      "city": "Seattle",
+      "zipcode": "98101",
+      "geo": {
+        "lat": "47.6062",
+        "lng": "-122.3321"
+      }
+    },
+    "phone": "555-777-8888",
+    "website": "davidbrown.com",
+    "company": {
+      "name": "JKL Technologies",
+      "catchPhrase": "Innovating for a better future",
+      "bs": "Technology"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Olivia Wilson",
+    "username": "oliviawilson",
+    "email": "oliviawilson@example.com",
+    "address": {
+      "street": "234 Cedar Street",
+      "suite": "Apt 5",
+      "city": "Boston",
+      "zipcode": "02101",
+      "geo": {
+        "lat": "42.3601",
+        "lng": "-71.0589"
+      }
+    },
+    "phone": "555-222-3333",
+    "website": "oliviawilson.com",
+    "company": {
+      "name": "MNO Enterprises",
+      "catchPhrase": "Driving innovation forward",
+      "bs": "Finance"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Daniel Lee",
+    "username": "daniellee",
+    "email": "daniellee@example.com",
+    "address": {
+      "street": "543 Walnut Street",
+      "suite": "Apt 6",
+      "city": "Houston",
+      "zipcode": "77001",
+      "geo": {
+        "lat": "29.7604",
+        "lng": "-95.3698"
+      }
+    },
+    "phone": "555-444-5555",
+    "website": "daniellee.com",
+    "company": {
+      "name": "PQR Solutions",
+      "catchPhrase": "Creating meaningful experiences",
+      "bs": "Technology"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Sophia Anderson",
+    "username": "sophiaanderson",
+    "email": "sophiaanderson@example.com",
+    "address": {
+      "street": "876 Oak Street",
+      "suite": "Apt 9",
+      "city": "Miami",
+      "zipcode": "33101",
+      "geo": {
+        "lat": "25.7617",
+        "lng": "-80.1918"
+      }
+    },
+    "phone": "555-666-7777",
+    "website": "sophiaanderson.com",
+    "company": {
+      "name": "RST Solutions",
+      "catchPhrase": "Building the future",
+      "bs": "Technology"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Ethan Thomas",
+    "username": "ethanthomas",
+    "email": "ethanthomas@example.com",
+    "address": {
+      "street": "765 Pine Street",
+      "suite": "Apt 2",
+      "city": "Denver",
+      "zipcode": "80201",
+      "geo": {
+        "lat": "39.7392",
+        "lng": "-104.9903"
+      }
+    },
+    "phone": "555-999-0000",
+    "website": "ethanthomas.com",
+    "company": {
+      "name": "UVW Industries",
+      "catchPhrase": "Driving progress",
+      "bs": "Manufacturing"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Mia Johnson",
+    "username": "miajohnson",
+    "email": "miajohnson@example.com",
+    "address": {
+      "street": "876 Elm Street",
+      "suite": "Apt 12",
+      "city": "Austin",
+      "zipcode": "78701",
+      "geo": {
+        "lat": "30.2672",
+        "lng": "-97.7431"
+      }
+    },
+    "phone": "555-777-1111",
+    "website": "miajohnson.com",
+    "company": {
+      "name": "XYZ Corporation",
+      "catchPhrase": "Innovative solutions for success",
+      "bs": "Finance"
+    }
+  }
+]
