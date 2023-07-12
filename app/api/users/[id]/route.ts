@@ -20,6 +20,6 @@ export async function GET(
       }
     );
   } else {
-    return NextResponse.json({ user }, { status: 200 });
+    return NextResponse.json({ user: user[0] }, { status: 200 });
   }
 }
