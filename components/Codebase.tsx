@@ -1,14 +1,21 @@
 import Link from "next/link";
+import { Fira_Code } from "next/font/google";
+const fira_code = Fira_Code({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
 export default function Codebase() {
-  const api = "fetch('https://api.mandorakannu.tech/api/users/')";
-
-  const result = ".then(res => res.json()).then(json => console.log(json))";
   return (
     <>
       <div className="flex flex-col justify-center items-start rounded gap-6 bg-white text-black p-4">
-        <section className="flex flex-col justify-center items-start">
-          <code>{api}</code>
-          <code>{result}</code>
+        <section className="flex flex-col flex-wrap justify-start items-start">
+          <code className={`${fira_code.className} text-xs lg:text-base`}>
+            fetch&#40;&#39;https://api.mandorakannu.tech/api/users/&#39;&#41;
+          </code>
+          <code className={`${fira_code.className} text-xs lg:text-base`}>
+            .then&#40;res ={">"} res.json&#40;&#41;&#41;.then&#40;json ={">"}{" "}
+            console.log&#40;json&#41;
+          </code>
         </section>
         <Link
           href="https://api.mandorakannu.tech/api/users/"
