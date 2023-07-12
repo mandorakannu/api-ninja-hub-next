@@ -12,7 +12,7 @@ export async function GET(
   if (comments.length === 0) {
     return NextResponse.json(
       {
-        error: `Only 10 users are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
+        error: `Only 100 comments are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
       },
       {
         status: 404,
