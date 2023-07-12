@@ -12,7 +12,7 @@ export async function GET(
   if (photo.length === 0) {
     return NextResponse.json(
       {
-        error: `Only ${photos.length} photos are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
+        error: `Only ${photos.length} photos are available. Read Docs: ${process.env.DOMAIN}/docs`,
       },
       {
         status: 404,

@@ -12,7 +12,7 @@ export async function GET(
   if (comment.length === 0) {
     return NextResponse.json(
       {
-        error: `Only ${comments.length} comments are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
+        error: `Only ${comments.length} comments are available. Read Docs: ${process.env.DOMAIN}/docs`,
       },
       {
         status: 404,

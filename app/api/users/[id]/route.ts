@@ -12,7 +12,7 @@ export async function GET(
   if (user.length === 0) {
     return NextResponse.json(
       {
-        error: `Only ${users.length} users are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
+        error: `Only ${users.length} users are available. Read Docs: ${process.env.DOMAIN}/docs`,
       },
       {
         status: 404,
