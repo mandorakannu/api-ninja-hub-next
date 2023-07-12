@@ -16,7 +16,7 @@ export async function GET(
       },
       {
         status: 404,
-        statusText: "User Not Found",
+        statusText: "Comment Not Found",
       }
     );
   } else {
