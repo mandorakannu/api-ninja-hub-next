@@ -12,7 +12,7 @@ export async function GET(
   if (album.length === 0) {
     return NextResponse.json(
       {
-        error: `Only 100 Albums are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
+        error: `Only ${albums.length} Albums are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
       },
       {
         status: 404,

@@ -12,7 +12,7 @@ export async function GET(
   if (todo.length === 0) {
     return NextResponse.json(
       {
-        error: `Only 100 todos are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
+        error: `Only ${todos.length} todos are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
       },
       {
         status: 404,
