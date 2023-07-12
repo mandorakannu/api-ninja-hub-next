@@ -7,6 +7,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
 } from "react-icons/ai";
+import Image from "next/image";
 const knewave = Knewave({
   subsets: ["latin", "latin-ext"],
   weight: ["400"],
@@ -16,8 +17,17 @@ export default function Footer() {
   return (
     <footer className="text-gray-600 body-font border-t-2 border-t-teal-300">
       <div className="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
-        <Link href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <Logo />
+        <Link
+          href="/"
+          className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <Image
+            src="/images/logo.png"
+            alt="logo"
+            width={50}
+            height={50}
+            className="rounded-full shadow-md shadow-blue-400"
+          />
           <span className={`ml-3 text-xl uppercase ${knewave.className}`}>
             API Ninja Hub
           </span>
