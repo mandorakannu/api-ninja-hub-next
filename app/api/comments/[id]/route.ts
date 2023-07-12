@@ -9,7 +9,7 @@ export async function GET(
   const { id } = context.params;
   const _id = parseInt(id);
   const comment = comments.filter((comment) => comment.id === _id);
-  if (comments.length === 0) {
+  if (comment.length === 0) {
     return NextResponse.json(
       {
         error: `Only 100 comments are available. Read Docs: ${process.env.VERCEL_URL}/docs`,
