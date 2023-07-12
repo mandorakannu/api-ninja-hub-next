@@ -1,3 +1,4 @@
+import headers from "@/assets/functions/headers";
 import users from "@jsons/users.json";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -17,9 +18,13 @@ export async function GET(
       {
         status: 404,
         statusText: "User Not Found",
+        headers: { ...headers },
       }
     );
   } else {
-    return NextResponse.json({ user: user[0] }, { status: 200 });
+    return NextResponse.json(
+      { user: user[0] },
+      { status: 200, headers: { ...headers } }
+    );
   }
 }

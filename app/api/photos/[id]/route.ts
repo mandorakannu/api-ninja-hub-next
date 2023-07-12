@@ -1,3 +1,4 @@
+import headers from "@/assets/functions/headers";
 import photos from "@jsons/photos.json";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -17,9 +18,13 @@ export async function GET(
       {
         status: 404,
         statusText: "Photos Not Found",
+        headers: { ...headers },
       }
     );
   } else {
-    return NextResponse.json({ photo: photo[0] }, { status: 200 });
+    return NextResponse.json(
+      { photo: photo[0] },
+      { status: 200, headers: { ...headers } }
+    );
   }
 }

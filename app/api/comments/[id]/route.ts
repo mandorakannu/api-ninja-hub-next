@@ -1,3 +1,4 @@
+import headers from "@/assets/functions/headers";
 import comments from "@jsons/comments.json";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -17,9 +18,13 @@ export async function GET(
       {
         status: 404,
         statusText: "Comment Not Found",
+        headers: { ...headers },
       }
     );
   } else {
-    return NextResponse.json({ comment: comment[0] }, { status: 200 });
+    return NextResponse.json(
+      { comment: comment[0] },
+      { status: 200, headers: { ...headers } }
+    );
   }
 }

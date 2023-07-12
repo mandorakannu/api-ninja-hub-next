@@ -1,3 +1,4 @@
+import headers from "@/assets/functions/headers";
 import todos from "@jsons/comments.json";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -17,9 +18,13 @@ export async function GET(
       {
         status: 404,
         statusText: "Todo Not Found",
+        headers: { ...headers },
       }
     );
   } else {
-    return NextResponse.json({ todo: todo[0] }, { status: 200 });
+    return NextResponse.json(
+      { todo: todo[0] },
+      { status: 200, headers: { ...headers } }
+    );
   }
 }

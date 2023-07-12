@@ -1,3 +1,4 @@
+import headers from "@/assets/functions/headers";
 import albums from "@jsons/albums.json";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -17,9 +18,13 @@ export async function GET(
       {
         status: 404,
         statusText: "Albums Not Found",
+        headers: { ...headers },
       }
     );
   } else {
-    return NextResponse.json({ album: album[0] }, { status: 200 });
+    return NextResponse.json(
+      { album: album[0] },
+      { status: 200, headers: { ...headers } }
+    );
   }
 }
