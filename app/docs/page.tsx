@@ -1,5 +1,6 @@
 import Postdocs from "@/components/docs/Postdocs";
 import Userdocs from "@/components/docs/Userdocs";
+import Todosdocs from "@/components/docs/Todosdocs";
 import { Montserrat } from "next/font/google";
 
 const font = Montserrat({
@@ -25,6 +26,7 @@ export default function Docs() {
           </p>
           <Userdocs />
           <Postdocs />
+          <Todosdocs />
         </section>
       </div>
     </>
