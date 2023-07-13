@@ -5,6 +5,7 @@ import Commentdocs from "@/components/docs/Commentdocs";
 import Photodocs from "@/components/docs/Photodocs";
 import Albumdocs from "@/components/docs/Albumdocs";
 import { Montserrat } from "next/font/google";
+import Link from "next/link";
 
 const font = Montserrat({
   subsets: ["latin"],
@@ -34,6 +35,16 @@ export default function Docs() {
           <Photodocs />
           <Albumdocs />
         </section>
+        <h6 className="text-center">
+          <Link
+            href="https://github.com/mandorakannu/api-ninja-hub-next"
+            target="_blank"
+            className="underline underline-offset-4 hover:text-green-600"
+          >
+            Star This Repository on GitHub
+          </Link>
+          ⭐
+        </h6>
       </div>
     </>
   );
