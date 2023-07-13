@@ -56,7 +56,6 @@ export default function Home() {
         <Codebase />
       </div>
       <Endpoints />
-      <Footer />
     </>
   );
 }
