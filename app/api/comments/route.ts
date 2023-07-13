@@ -3,8 +3,8 @@ import comments from "@jsons/comments.json";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest, response: NextResponse) {
-  return NextResponse.json(
-    { comments },
-    { status: 200, headers: { ...headers } }
-  );
+  return new Response(JSON.stringify(comments), {
+    headers: headers,
+    status: 200,
+  });
 }
