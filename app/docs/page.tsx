@@ -1,3 +1,4 @@
+import Postdocs from "@/components/docs/Postdocs";
 import Userdocs from "@/components/docs/Userdocs";
 import { Montserrat } from "next/font/google";
 
@@ -23,6 +24,7 @@ export default function Docs() {
             todos, comments, and much more.
           </p>
           <Userdocs />
+          <Postdocs />
         </section>
       </div>
     </>
