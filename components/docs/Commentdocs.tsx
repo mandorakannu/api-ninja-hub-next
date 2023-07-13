@@ -12,7 +12,7 @@ export default function Userdocs() {
       <h3 className="text-center text-xl font-bold my-2">
         Now, let&apos;s see how to use the <code>/api/comment</code> endpoint.
       </h3>
-      <p id="#apicomments" className="font-medium my-2">
+      <p id="apicomments" className="font-medium my-2">
         The <code>/api/Comment</code> endpoint provides a list of Comment with
         randomly generated data. The data includes the comment&apos;s id,
         postId, name, email, body. The data is generated randomly and is not

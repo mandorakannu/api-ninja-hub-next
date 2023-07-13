@@ -12,7 +12,7 @@ export default function Userdocs() {
       <h3 className="text-center text-xl font-bold my-2">
         Let&apos;s Start With Users
       </h3>
-      <p id="#api/users" className="font-medium my-2">
+      <p id="apiusers" className="font-medium my-2">
         The <code>/api/users</code> endpoint provides a list of users with
         randomly generated data. The data includes the user&apos;s name, email,
         address, phone number, and website. The data is generated randomly and

@@ -11,9 +11,9 @@ export default function Postdocs() {
   return (
     <>
       <h3 className="text-center text-xl font-bold my-2">
-        Now, let&apos;s see how to use the /api/posts endpoint.
+        Now, let&apos;s see how to use the <code>/api/posts</code> endpoint.
       </h3>
-      <p id="#apiposts" className="font-medium my-2">
+      <p id="apiposts" className="font-medium my-2">
         The <code>/api/posts</code> endpoint provides a list of posts with
         randomly generated data. The data includes the user&apos;s id, id, title
         and body. The data is generated randomly and is not based on any real
