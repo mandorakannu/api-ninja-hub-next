@@ -1,36 +1,20 @@
 import Link from "next/link";
 import React from "react";
-
+import users from "@jsons/users.json";
+import useLimitPosts from "@/hooks/useLimitPosts";
 export default function Userdocs() {
-  const user = {
-    id: 1,
-    name: "John Doe",
-    username: "johndoe",
-    email: "johndoe@example.com",
-    address: {
-      street: "123 Main Street",
-      suite: "Apt 4",
-      city: "New York",
-      zipcode: "10001",
-      geo: {
-        lat: "40.7128",
-        lng: "-74.0060",
-      },
-    },
-    phone: "555-123-4567",
-    website: "johndoe.com",
-    company: {
-      name: "ABC Company",
-      catchPhrase: "Providing innovative solutions",
-      bs: "Technology",
-    },
-  };
+  const url = `${process.env.DOMAIN}/api/users/`;
+  const user = useLimitPosts({ jsonFile: "users", lastIndex: 1 });
+  const manyUsers = useLimitPosts({ jsonFile: "users", lastIndex: 3 });
+
   return (
     <>
-      <h3 className="text-center text-xl font-bold my-2">Let's Start With Users</h3>
+      <h3 className="text-center text-xl font-bold my-2">
+        Let&apos;s Start With Users
+      </h3>
       <p id="#api/users" className="font-medium my-2">
         The <code>/api/users</code> endpoint provides a list of users with
-        randomly generated data. The data includes the user's name, email,
+        randomly generated data. The data includes the user&apos;s name, email,
         address, phone number, and website. The data is generated randomly and
         is not based on any real user data. The data is generated using the
         <Link
@@ -113,6 +97,19 @@ export default function Userdocs() {
         </h4>
         <br />
         {JSON.stringify(user, null, 2)}
+      </pre>
+      <pre className="bg-slate-800 text-white overflow-x-scroll lg:overflow-x-hidden p-5 my-4 check scroller">
+        <h4 className="flex flex-col justify-start items-start sm:text-center whitespace-pre">
+          <span>Result of an API</span>
+          <span className="underline underline-offset-4">{url}</span>
+        </h4>
+        <br />
+        {JSON.stringify(manyUsers, null, 2)}
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p className="text-green-600 text-2xl">Upto {users.length} Posts.</p>
       </pre>
     </>
   );
