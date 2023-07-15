@@ -72,6 +72,8 @@ GET **/api/albums** ====> **https://api.mandorakannu.tech/api/albums/**
 
 GET **/api/photos** ====> **https://api.mandorakannu.tech/api/photos/**
 
+GET **/api/products** ====> **https://api.mandorakannu.tech/api/products/**
+
 
 
 #### Get all users
@@ -194,6 +196,25 @@ GET **/api/photos** ====> **https://api.mandorakannu.tech/api/photos/**
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of photos to fetch |
 
+#### Get all products
+
+```http
+  GET /api/products/
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `null`      | `string` | Fetch all products |
+
+#### Get only one product
+
+```http
+  GET /api/products/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of product to fetch |
 
 ## Tech Stack
 
