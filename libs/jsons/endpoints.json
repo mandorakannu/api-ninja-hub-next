@@ -34,5 +34,11 @@
     "endpoint": "/api/photos",
     "amount": "100 Photos",
     "path": "https://www.api.mandorakannu.tech/api/photos"
+  },
+  {
+    "_id": 7,
+    "endpoint": "/api/products",
+    "amount": "20 Products",
+    "path": "https://www.api.mandorakannu.tech/api/products"
   }
 ]
