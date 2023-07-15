@@ -4,6 +4,7 @@ import Todosdocs from "@/components/docs/Todosdocs";
 import Commentdocs from "@/components/docs/Commentdocs";
 import Photodocs from "@/components/docs/Photodocs";
 import Albumdocs from "@/components/docs/Albumdocs";
+import Productsdocs from "@/components/docs/Productsdocs";
 import { Montserrat } from "next/font/google";
 import Link from "next/link";
 
@@ -34,6 +35,7 @@ export default function Docs() {
           <Commentdocs />
           <Photodocs />
           <Albumdocs />
+          <Productsdocs />
         </section>
         <h6 className="text-center">
           <Link

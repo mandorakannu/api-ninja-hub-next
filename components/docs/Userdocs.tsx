@@ -18,7 +18,7 @@ export default function Userdocs() {
         address, phone number, and website. The data is generated randomly and
         is not based on any real user data. The data is generated using the
         <Link
-          href="https://www.api.mandorakannu.tech/users/"
+          href={url}
           className="underline underline-offset-4"
         >
           {" "}
