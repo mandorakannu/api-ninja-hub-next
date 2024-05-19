@@ -74,14 +74,14 @@ export const metadata: Metadata = {
     siteId: "@mandorakannu",
     creator: "@KannuMandora",
     creatorId: "1467726470533754880",
-    images: ["https://api.mandorakannu.tech/images/logo.png"],
+    images: ["https://api.mandorakannu.rocks/images/logo.png"],
   },
   authors: [{ name: "Kannu Mandora", url: "https://mandorakannu.tech" }],
   viewport: "width=device-width, initial-scale=1.0",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://api.mandorakannu.tech",
+    url: "https://api.mandorakannu.rocks",
     title: "API Ninja Hub | Kannu Mandora",
     description:
       "This API provides developers with fake data for use in development and testing. The data returned by this API is randomly generated and can be customized to fit the needs of the developer. This allows developers to test their applications with realistic data without the need to manually create it. The API supports multiple data types and formats, making it easy to integrate into any development workflow",
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
     emails: "mandorakannu@gmail.com",
     images: [
       {
-        url: "https://api.mandorakannu.tech/images/logo.png",
+        url: "https://api.mandorakannu.rocks/images/logo.png",
         width: 512,
         height: 512,
         alt: "API Ninja Hub | Kannu Mandora",
