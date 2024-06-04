@@ -18,7 +18,7 @@ export default function Endpoints() {
             >
               <Link
                 className="underline underline-offset-2 text-blue-500"
-                href={points.path}
+                href={process.env.DOMAIN!+points.path}
                 target="_blank"
               >
                 {points.endpoint}
