@@ -24,7 +24,7 @@ My **API NINJA HUB** get response without server restrication so, developer can 
 This is an API so you should directly fetch any type of data.
 
 ```bash
-  fetch('https://api.mandorakannu.tech/api/users')
+  fetch('https://api.mandorakannu.xyz/api/users')
   .then(res => res.json())
   .then(json => console.log(json));  
 ```
@@ -33,7 +33,7 @@ OR
 Use of *async await* function
 ```bash
 const getUsers = async ()=> {
- const response = await fetch("https://api.mandorakannu.tech/api/users");
+ const response = await fetch("https://api.mandorakannu.xyz/api/users");
  const data = await response.json();
  return data;
 }
@@ -45,14 +45,14 @@ Use of *async await* function by **Axios**
 
 ```bash
 const getUsers = async ()=> {
- const response = await axios.get("https://api.mandorakannu.tech/api/users");
+ const response = await axios.get("https://api.mandorakannu.xyz/api/users");
  return response.data;
 }
 ```
 
 ## Documentation
 
-[Official Website](https://api.mandorakannu.tech/)
+[Official Website](https://api.mandorakannu.xyz/)
 
 
 
@@ -60,19 +60,19 @@ const getUsers = async ()=> {
 ## API Reference
 
 
-GET **/api/users** ====> **https://api.mandorakannu.tech/api/users/**
+GET **/api/users** ====> **https://api.mandorakannu.xyz/api/users/**
 
-GET **/api/posts** ====> **https://api.mandorakannu.tech/api/posts/**
+GET **/api/posts** ====> **https://api.mandorakannu.xyz/api/posts/**
 
-GET **/api/todos** ====> **https://api.mandorakannu.tech/api/todos/**
+GET **/api/todos** ====> **https://api.mandorakannu.xyz/api/todos/**
 
-GET **/api/comments** ====> **https://api.mandorakannu.tech/api/comments/**
+GET **/api/comments** ====> **https://api.mandorakannu.xyz/api/comments/**
 
-GET **/api/albums** ====> **https://api.mandorakannu.tech/api/albums/**
+GET **/api/albums** ====> **https://api.mandorakannu.xyz/api/albums/**
 
-GET **/api/photos** ====> **https://api.mandorakannu.tech/api/photos/**
+GET **/api/photos** ====> **https://api.mandorakannu.xyz/api/photos/**
 
-GET **/api/products** ====> **https://api.mandorakannu.tech/api/products/**
+GET **/api/products** ====> **https://api.mandorakannu.xyz/api/products/**
 
 
 

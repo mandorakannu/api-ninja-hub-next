@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     creatorId: "1467726470533754880",
     images: ["https://api.mandorakannu.xyz/images/logo.png"],
   },
-  authors: [{ name: "Kannu Mandora", url: "https://mandorakannu.tech" }],
+  authors: [{ name: "Kannu Mandora", url: "https://mandorakannu.xyz" }],
   viewport: "width=device-width, initial-scale=1.0",
   openGraph: {
     type: "website",
